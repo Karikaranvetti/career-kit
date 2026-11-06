@@ -104,3 +104,9 @@ You decide what goes in. Onboarding round 10 asks:
   useful can go in `private/`, which is in `.gitignore` and never leaves your machine.
 
 Never put passwords, API keys or tokens in this repo.
+
+## Contributing
+
+Open source under the MIT licence. Issues and pull requests are welcome, especially feedback
+from actually using it. See `CONTRIBUTING.md`. Never include personal data in a contribution:
+your filled-in copy stays private.
