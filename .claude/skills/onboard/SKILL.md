@@ -11,6 +11,9 @@ description: First-time setup of the career knowledge base. Interviews the perso
 3. Ask which rounds to do now. Core is 0, 1, 2, 3, 9, 10; modules are 4–8. Default: core
    first, **always starting with round 0**: its answers (AI level, saving) decide how you run
    the rest. If the level is new or some, use guide mode from round 1 on (`AGENTS.md`).
+   Round 0 question 4 (whose laptop and account) comes before any save: follow "Before
+   saving anything" in `QUESTIONS.md`, and never commit under someone else's git identity.
+   If they share a CV at any point, follow "A CV can arrive at any round" in `QUESTIONS.md`.
    If they don't use git and choose a private git repo, walk them through it: `git init`,
    then creating a **private** repo on GitHub/GitLab and pushing. Explain each command in one line.
 4. Run the rounds one at a time:

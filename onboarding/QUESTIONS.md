@@ -16,6 +16,14 @@ Time: about 30–45 minutes. It can be split across days: round by round is fine
   title?" If still vague, write it as it is and mark it `(revisit)`.
 - **Never guess.** An empty answer is better than an invented one.
 - **The examples are only examples.** Don't push them.
+- **Ask for numbered answers** ("1. … 2. …"). If something they write doesn't clearly answer
+  one question, ask once which question it belongs to. Don't file it under a guess.
+- **A CV can arrive at any round.** People often share it in round 1. If they do: read it,
+  then check it's theirs (name on it vs who they said they are; if it doesn't match, ask
+  before using any of it). Use it to pre-fill rounds 1 and 7, show what you took and confirm
+  each part, and still ask "what changed" and "which part was yours", because a CV never
+  says that. Never copy phone numbers, emails or addresses into `me/`; the CV module holds
+  contact details only in `cv/cv.typ`.
 
 ---
 
@@ -31,14 +39,25 @@ Asked first, because the answers change how the AI behaves in every later round.
    - **confident:** I use it daily and I check what it tells me
 3. Has an AI ever told you something wrong with full confidence? Did you notice at the time?
    (Any answer is fine. It tells the AI how much checking to teach.)
-4. Do you use git? (yes / a little / no / what's git?)
-5. How should your work be saved? Pick one:
+4. **Whose laptop and whose AI account is this?** Your own, someone else's, or your
+   employer's? If it isn't yours: your goals, CV and job search will sit on their machine
+   and in their account. Is that OK with both of you? (Often the better answer is to set
+   this up on your own laptop and account.)
+5. Do you use git? (yes / a little / no / what's git?)
+6. How should your work be saved? Pick one:
    - **auto:** the AI commits after each check-in and review (needs git)
    - **ask:** the AI asks "save this?" each time
    - **manual:** I save or commit myself
    If you don't use git, the AI explains the options (a private git repo, or a synced folder
    such as a cloud drive) and you choose. Keeping files on one laptop with no copy is the
    one bad answer: one lost laptop loses everything.
+
+*Before saving anything (for the AI):* if the laptop or the git identity isn't theirs (check
+`git config user.name` and `user.email`), set their own name and email **for this folder
+only** (`git config user.name "…"` and `git config user.email "…"`, without `--global`), so
+saves go under their name. If they'd rather not give an email, don't save until they decide.
+If the AI account is an employer's, say plainly that the employer may be able to see it,
+and let them decide.
 
 *How the AI uses this:* **new** and **some** switch on **guide mode** (see `AGENTS.md`): the AI
 explains what it's doing and why, says how sure it is, and teaches one AI habit a week from
@@ -146,9 +165,10 @@ explains what it's doing and why, says how sure it is, and teaches one AI habit 
 
 ## Round 10 · Privacy and setup → `me/rules.md` (Privacy, Setup)
 
-1. Whose AI account is this: yours, or your employer's? (If your employer's: keep the job
-   search out of it, and never use your work email in this repo.)
-2. Is this repo in git? Private? Pushed anywhere? Which devices?
+1. Round 0 asked whose laptop and AI account this is. Anything to add? (If an employer's
+   account: keep the job search out of it, and never use a work email in this repo.)
+2. Is this repo in git? Private? Pushed anywhere (a **private** GitHub/GitLab repo is a good
+   backup)? Which devices?
 3. What must **never** be written in these files? What is sensitive but useful (goes in
    `private/`, which git ignores)?
 4. If you use a chat AI such as ChatGPT: everything you paste or upload is sent to that

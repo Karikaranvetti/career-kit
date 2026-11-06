@@ -9,6 +9,7 @@ Filled in by onboarding rounds 3, 9 and 10. When you correct the AI, the correct
 <!-- From onboarding round 0. Say "change my level" to the AI any time. -->
 - **Level:** <new / some / confident> → **Guide mode:** <on / off>
 - **AI tools and their jobs:** <fill in: e.g. ChatGPT teaches, Claude Code edits files>
+- **Laptop / AI account:** <mine / someone else's (whose) / employer's> · **Saves under:** <name, email for this folder>
 - **Uses git:** <yes / a little / no>
 - **Saving:** <auto / ask / manual> · **Where the copy lives:** <private git repo / synced folder>
 - **AI habits taught so far** (guide mode, from `GUIDE-ai-basics.md`): <none yet>

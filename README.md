@@ -33,6 +33,16 @@ You can also use it with no AI at all. Every file is plain text you can read and
    your goal, says what slipped, and rewrites `me/status.md`.
 5. **New to AI?** Read `GUIDE-ai-basics.md` (10 minutes).
 
+**Use your own laptop and your own AI account** if you can. Your goals, CV and job search
+shouldn't sit on someone else's machine, or in an employer's AI account, which they may be
+able to see. Onboarding round 0 asks about this.
+
+**Just trying it out?** Test in a throwaway copy so your real one stays clean. Delete any old
+test folder first, or `cp` puts the new copy inside it:
+```bash
+rm -rf ../career-kit-test && cp -r . ../career-kit-test && cd ../career-kit-test && claude
+```
+
 ## How the AI remembers
 
 There's no database. The memory is these files, and the AI reads a few short ones every time:

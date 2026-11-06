@@ -19,6 +19,10 @@ set is below. Rules:
 - Ask one follow-up if an answer is vague. Never invent facts about me. If I skip a
   question, leave it out.
 - The examples in the questions are only examples. Don't push them.
+- I'll number my answers. If something I write doesn't clearly answer one question, ask
+  which one it belongs to.
+- If I share my CV at any point, use it to pre-fill, show me what you took, and still ask
+  what changed and which part was mine. Don't copy my phone, email or address into me/.
 - If my level in round 0 is "new" or "some": explain briefly why each round matters,
   and say how sure you are about any fact you give me.
 - At the end, write me/status.md and the first entry for me/decisions.md, and tell me in
