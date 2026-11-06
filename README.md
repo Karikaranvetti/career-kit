@@ -16,10 +16,22 @@ where you are. The more you use it, the less you have to explain, and the better
 
 You can also use it with no AI at all. Every file is plain text you can read and edit.
 
+## Get your own copy (private)
+
+This repo is the public **template**. Your copy will hold your goals, CV, job search and
+maybe salary, so it must be **private**.
+
+- **On GitHub:** click **Use this template → Create a new repository**, and choose
+  **Private**. Then clone your new repo to your laptop.
+- **Without GitHub:** **Code → Download ZIP**, unzip it, then `cd career-kit && git init`.
+
+**Don't fork it for your own use.** A fork of a public repo is always public, so your
+profile and logs would be visible to everyone. Forks are only for sending improvements back
+(see "Found a problem?" below).
+
 ## Quick start
 
-1. **Copy this template** into your own **private** repo (or a local folder). The template
-   is public; your copy will hold your goals, maybe salary and job search. Keep it private.
+1. **Get your own private copy** (above), on **your own laptop**.
 2. **Run the onboarding** (about 30–45 minutes, can be split). Round 0 asks how comfortable
    you are with AI; if you're new to it, the AI switches on **guide mode** and teaches you
    to use it well as you go.
@@ -105,8 +117,18 @@ You decide what goes in. Onboarding round 10 asks:
 
 Never put passwords, API keys or tokens in this repo.
 
-## Contributing
+## Found a problem? Have an idea?
 
-Open source under the MIT licence. Issues and pull requests are welcome, especially feedback
-from actually using it. See `CONTRIBUTING.md`. Never include personal data in a contribution:
-your filled-in copy stays private.
+This kit improves from people actually using it. If a question confused you, the AI did
+something odd, a script failed on your OS, or your role needed something that isn't here:
+
+- **Open an issue** in this repo (Issues → New issue → "Feedback from using it"). Say your
+  role, your AI tool and OS, where it happened, what you expected and what happened. No
+  need to know how to fix it.
+- **Want to fix it yourself?** Fork this repo (the fork is only for the fix, never for your
+  own data), change it, and open a pull request. See `CONTRIBUTING.md`.
+
+**Never paste your profile, logs, CV or anything personal** into an issue or pull request.
+Describe the problem with made-up details instead.
+
+Open source under the MIT licence.
